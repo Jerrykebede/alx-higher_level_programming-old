@@ -15,7 +15,7 @@ class Rectangle:
         """ width
         """
         return self.__width
-    
+
     @property
     def height(self):
         """ height
