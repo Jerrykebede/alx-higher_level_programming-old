@@ -136,7 +136,7 @@ if __name__ == "__main__":
         print("N must be at least 4")
         sys.exit(1)
 
-     board = init_board(int(sys.argv[1]))
+    board = init_board(int(sys.argv[1]))
      solutions = recursive_solve(board, 0, 0, [])
      for sol in solutions:
          print(sol)
